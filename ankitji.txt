@@ -1,0 +1,7 @@
+import time
+import random
+
+def unique_code():
+    return f"{int(time.time())}{random.randint(1000,9999)}"
+
+print(unique_code())
